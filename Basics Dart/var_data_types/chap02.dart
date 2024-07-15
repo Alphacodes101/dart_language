@@ -30,7 +30,7 @@ void main() {
 fruits.add("banana");// only one element at a time
 fruits.addAll(["grapes", "orange"]);// multiple elements at a time
 fruits.sort();// sorting the list
-print()
+ print(myData);
 
 
   //* printing the data
