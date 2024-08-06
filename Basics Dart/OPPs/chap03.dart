@@ -10,9 +10,7 @@ class Mathematics {
   //   print("$numerator /$denominator");
   // }
 
-
-
-//* SETTER Functions 
+//* SETTER Functions
 
   void set numerator(int val) {
     _num = val;
@@ -20,6 +18,16 @@ class Mathematics {
 
   void set denominator(int val) {
     _den = val;
+  }
+//* getter functions
+
+  int get numerator {
+    return _num;
+  }
+
+  int  get den() {
+    return _num;
+
   }
 }
 
@@ -31,5 +39,4 @@ void main() {
   maths.denominator = 20; //* setter
 
 //* basic Getter non Customise getter
-
 }
