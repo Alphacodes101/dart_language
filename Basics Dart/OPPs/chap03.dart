@@ -12,31 +12,26 @@ class Mathematics {
 
 //* SETTER Functions
 
-  void set numerator(int val) {
-    _num = val;
+  void set setnumerator(int val) {
+    _num = val *6;
   }
 
-  void set denominator(int val) {
-    _den = val;
+  void set setdenominator(int val) {
+    _den = val*10;
   }
+
 //* getter functions
+  int get getnumerator => _num;
 
-  int get numerator {
-    return _num;
-  }
-
-  int  get den() {
-    return _num;
-
-  }
+  int get getdenominator => _den;
 }
 
 void main() {
   Mathematics maths = new Mathematics();
 
-  //* basic Setter non Customise setter
-  maths.numerator = 10; //* setter
-  maths.denominator = 20; //* setter
+  maths.setnumerator = 10;
+  maths.setdenominator = 30;
+  print(maths.getnumerator);
+  print(maths.getdenominator);
 
-//* basic Getter non Customise getter
 }
