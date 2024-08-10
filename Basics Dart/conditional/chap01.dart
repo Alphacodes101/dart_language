@@ -1,8 +1,11 @@
 void main() {
-  int a = 10;
-  int b = 20;
-  
-  
-  
-  
+  var num = 12;
+  if (num % 2 == 0) {
+    print("even");
+  } else {
+    print("odd");
   }
+}
+
+
+
