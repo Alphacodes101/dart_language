@@ -32,6 +32,7 @@ class Mathematics {
 
 void main() {
   Mathematics mathematics = new  Mathematics(14, 34);
+  // ignore: unused_local_variable
   Mathematics mathematics1 = new Mathematics.namedConstructor();
 
 

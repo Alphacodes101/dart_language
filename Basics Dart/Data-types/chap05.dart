@@ -1,7 +1,6 @@
 //*MAP
 
 //* Map is a collection of key-value pairs where each key is unique.
-import 'dart:io';
 
 void main() {
 

@@ -1,6 +1,7 @@
 
 //* super in dart 
 void main() {
+  // ignore: unused_local_variable
   MobilePhone mobilePhones = MobilePhone("s23");
 }
 
