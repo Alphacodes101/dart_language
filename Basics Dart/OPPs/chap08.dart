@@ -8,6 +8,7 @@ and parameters with the same name
 
 
 void main() {
+  // ignore: unused_local_variable
   Student s1 = new Student('5000');
 }
 

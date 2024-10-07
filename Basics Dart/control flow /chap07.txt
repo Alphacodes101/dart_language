@@ -1,0 +1,6 @@
+break and continue in dart 
+
+1) Break -> this statement is used to break the flow of control.
+2) continue -> Initially count value is 1. and checked condition..
+
+
